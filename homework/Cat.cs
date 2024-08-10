@@ -14,7 +14,7 @@ namespace homework
 
         }
 
-        public Cat(int mood) : base(true, true, mood)
+        public Cat(bool mammals, bool carnivorous, int mood) : base(true, true, mood)
         {
 
         }
@@ -43,7 +43,6 @@ namespace homework
         public override void SayHello(int mood)
         {
             this.mood = mood;
-
             SayHello();
         }
     }

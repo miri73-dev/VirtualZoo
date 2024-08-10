@@ -33,6 +33,5 @@ namespace homework
         {
             return carnivorous;
         }
-
     }
 }

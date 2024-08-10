@@ -9,12 +9,14 @@ namespace homework
     public class Frog : Animal, IWater, ILand
     {
         private readonly int numberOfLegs = 4;
-
         public Frog() : base(false, false, 0)
         {
+
         }
-        public Frog(int mood) : base(false, false, mood)
+
+        public Frog(bool mammals, bool carnivorous, int mood) : base(false, false, mood)
         {
+
         }
 
         public int GetNumberOfLegs()

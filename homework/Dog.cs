@@ -10,7 +10,12 @@ namespace homework
     {
         private readonly int numberOfLegs = 4;
 
-        public Dog():base(true, true, 1)
+        public Dog() : base(true, true, 0)
+        {
+
+        }
+
+        public Dog(bool mammals, bool carnivorous, int mood) : base(true, true, mood)
         {
 
         }
