@@ -28,17 +28,6 @@ The program will create a zoo with a mix of dogs, frogs, and cats and display in
 
  * Gill and egg-laying information for water animals
 
-## Code Structure
-The code is organized into multiple files:
-
- * Program.cs: Contains the main program logic, including the InitAnimal and TestAnimal functions.
- * Animal.cs: Defines the abstract Animal class.
- * Dog.cs: Defines the Dog class.
- * Frog.cs: Defines the Frog class.
- * Cat.cs: Defines the Cat class.
- * ILand.cs: Defines the ILand interface.
- * IWater.cs: Defines the IWater interface.
-
 ## Changing an Animal's Mood and Responses
 
 The Animal class in this project incorporates a mood property that can be set to different values to influence how the animal responds. The available moods are:
